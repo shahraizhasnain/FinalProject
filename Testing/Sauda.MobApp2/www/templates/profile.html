@@ -1,0 +1,77 @@
+<ion-view view-title="Profile">
+    <ion-content ng-class="{expanded:$scope.isExpanded}">
+        <div class="hero slide-up" style="background-image: url('img/login.png'); margin-top:15%;">
+            <div class="content">
+                <div class="avatar" style="background-image: url('img/profile.jpg');"></div>
+                <h3><a class="light" style="color:black;">Shahraiz Hasnain Khan</a></h3>
+                <h4>dragon_mommy</h4>
+            </div>
+        </div>
+        <!--<div class="tabs tabs-dark tabs-icon-top static">-->
+        <!--<a ui-sref="app.activity" class="tab-item">-->
+        <!--<i class="icon ion-arrow-graph-up-right"></i> List-->
+        <!--</a>-->
+        <!--<a ui-sref="app.friends" class="tab-item">-->
+        <!--<i class="icon ion-android-people"></i> Friends-->
+        <!--</a>-->
+        <!--<a ui-sref="app.gallery" class="tab-item">-->
+        <!--<i class="icon ion-images"></i> Photos-->
+        <!--</a>-->
+        <!--</div>-->
+        <div class="padding">
+            <div class="list">
+                <label class="item item-input"  style="background-color: rgba(113, 103, 103, 0.46);">
+                    <input type="text" placeholder="Enter your Budget Here !">
+                </label>
+                <div class="padding-top">
+                <button class="button button-assertive-900 ink" style="margin-right: auto;margin-left: auto;display: block;">
+                    Submit
+                </button>
+                    </div>
+            </div>
+        </div>
+        <div class="padding">
+            <button class="button button-full icon-left ion-plus-round button-assertive-900 ink " ui-sref="app.stores">Create List</button>
+            <button class="button button-full icon-left ion-eye button-assertive-900 ink" ng-click="oauthLogin('google')">View List</button>
+            <button class="button button-full icon-left ion-share button-assertive-900 ink" ng-click="oauthLogin('google')">Share List</button>
+
+        </div>
+    </ion-content>
+</ion-view>
+<script type="text/javascript">
+ 
+    import { AlertController } from 'ionic-angular';
+
+export class MyPage {
+  constructor(public alertCtrl: AlertController) {
+  }
+
+  showPrompt() {
+    let prompt = this.alertCtrl.create({
+      title: 'Login',
+      message: "Enter a name for this new album you're so keen on adding",
+      inputs: [
+        {
+          name: 'title',
+          placeholder: 'Title'
+        },
+      ],
+      buttons: [
+        {
+          text: 'Cancel',
+          handler: data => {
+            console.log('Cancel clicked');
+          }
+        },
+        {
+          text: 'Save',
+          handler: data => {
+            console.log('Saved clicked');
+          }
+        }
+      ]
+    });
+    prompt.present();
+  }
+}
+</script>

@@ -1,0 +1,18 @@
+<ion-view view-title="Items">
+    <ion-content ng-class="{expanded:$scope.isExpanded}">
+        <!--
+ A simple starting template for Ionic Development.
+        -->
+        
+        <div class="list" style="margin-top:15%;">
+            <a class="item item-thumbnail-left" href="#" ng-repeat="x in Item" style="min-height:100px; border:1px solid #ddd;">
+                <img src="img/material2.jpg" style="border-radius: 0px;">
+                <h2 style="font-size:20px; overflow: visible; text-overflow: initial; white-space: normal;">{{x.ItemName}}</h2>
+                <p style="white-space: normal;">{{x.ItemDescription}} </p>
+                <h2 class="pull-left">Price: Rs {{x.ItemPrice}}</h2>
+                <button id="fab-profile" class="button  button-sting pull-right " ng-click="add(x.ItemID, x.ItemName, x.ItemPrice, x.ItemDiscountPercentage, x.StoreID)" style="margin-top: 5px;"><i class="icon ion-plus-round"></i></button>
+            </a>
+        </div>
+    </ion-content>
+</ion-view>
+

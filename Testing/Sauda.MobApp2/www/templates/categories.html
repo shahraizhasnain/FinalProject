@@ -1,0 +1,20 @@
+<ion-view view-title="Categories">
+    <ion-content ng-class="{expanded:$scope.isExpanded}" >
+        <!--
+ A simple starting template for Ionic Development.
+        -->
+        <!-- <div class="padding text-center" style="background-color: darkgray;"> -->
+
+
+        <!-- </div> -->
+
+        <div class="list" style="margin-top:18%;" >
+            <div ng-repeat="x in Category">
+                <a class="item item-thumbnail-left" ui-sref="app.subcategories" ng-click="clicked(x.CategoryID)" style="min-height:100px; border:1px solid #ddd;">
+                    <img src="img/food.png" style="border-radius: 0px; padding:5px;">
+                    <h2 style="font-size:20px; margin-top:10%;">{{x.CategoryName}}</h2>
+                </a>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

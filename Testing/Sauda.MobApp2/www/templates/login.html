@@ -1,0 +1,45 @@
+0<ion-view view-title="Login" align-title="left" style="background: url(img/login.png) center; background-size: cover;">
+    <ion-content>
+        <div>
+            <div class="hero no-header flat">
+                <div class="content">
+                    <div class="app-icon"></div>
+                    <h1 style="color:black;">Sauda</h1>
+                </div>
+            </div>
+            <!--         <div class="list">
+              <label class="item item-input">
+                <span class="input-label">Username</span>
+                <input type="text" highlight-color="balanced">
+              </label>
+              <label class="item item-input">
+                <span class="input-label">Password</span>
+                <input type="password">
+              </label>
+            </div> -->
+            <form ng-submit="login(Customer)">
+                  <div class="list" style="margin-top: 100px; margin-bottom:0px;">
+                    <label class="item item-input" style="background-color: rgba(113, 103, 103, 0.46); margin-bottom: 2px;margin-top: 0px; ">
+                        <input type="text"  placeholder="Full Name" ng-model="Customer.CustomerName" style="color: white; font-size: 28px; font-weight: 400;" required="required">
+                    </label>
+                    <label class="item item-input" style="background-color: rgba(113, 103, 103, 0.46); margin-bottom: 2px;margin-top: 0px;">
+                        <input type="text"  placeholder="Mobile Number" ng-model="Customer.CustomerContact" style="color: white; font-size: 28px; font-weight: 400;" required="required">
+                    </label>
+                    <label class="item item-input" style="background-color: rgba(113, 103, 103, 0.46); margin-bottom: 2px;margin-top: 0px;">
+                        <input type="text"  placeholder="Delievery Address" ng-model="Customer.CustomerAddress1" style="color: white; font-size: 28px; font-weight: 400;" required="required">
+                    </label>
+                    <div>
+                        <button  class="button button-full button-assertive ink"  type="submit" style="margin-top: 0px;">Register</button>
+                    </div>
+                  </div>
+            </form>
+        </div>
+
+        <!-- <div class="button-bar social-login">
+            <button class="button button-small button-border icon-left ion-social-google button-assertive-900">Google+</button>
+            <button class="button button-small button-border icon-left ion-social-twitter button-calm-900">Twitter</button>
+            <button class="button button-small button-border icon-left ion-social-facebook button-positive-900">Facebook</button>
+        </div> -->
+        </div>
+    </ion-content>
+</ion-view>

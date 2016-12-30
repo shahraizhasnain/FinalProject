@@ -1,0 +1,58 @@
+<ion-view view-title="Stores">
+    <ion-content ng-class="{expanded:$scope.isExpanded}">
+        <!--
+ A simple starting template for Ionic Development.
+        -->
+        
+            
+        <div class="padding" style="margin-top:12%;">
+        <div class="row unlimited-items"> 
+            <div class="col" ng-repeat="x in Store">
+                <div class="list card" ng-click="clicked(x.StoreID)" ui-sref="app.categories" style="margin-bottom:0px; background-color: rgb(74, 51, 141);">
+                    <img src="img/imtiaz.png" style="width:60%; margin: auto; padding:10px; box-shadow: none;"alt="{{x.StoreLogo}}"/>
+                    <a href="www.yahoo.com" style="text-align: center; text-decoration: none"><h3 style="color: white; text-decoration: none;">{{x.StoreName}}</h3></a>
+                </div>
+            </div>
+<!--            <div class="col">
+                <div class="list card">
+                <a href="www.yahoo.com">
+                    <img src="img/imtiaz.jpg"/>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                 <div class="list card">
+                <a href="www.yahoo.com">
+                    <img src="img/hyper.jpg"/>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                 <div class="list card">
+                <a href="www.yahoo.com">
+                    <img src="img/greens.jpg"/>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                 <div class="list card">
+                <a href="www.yahoo.com">
+                    <img src="img/binhashim.jpg"/>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                 <div class="list card">
+                <a href="www.yahoo.com">
+                    <img src="img/naheed.jpg"/>
+                    </a>
+                </div>
+            </div>-->
+            
+        </div>
+</div>
+        
+        
+    </ion-content>
+</ion-view>
+
