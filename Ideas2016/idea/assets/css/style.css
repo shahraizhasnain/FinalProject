@@ -1,0 +1,69 @@
+.p-20{
+	padding: 20px;
+}
+.mb-20{
+	margin-bottom: 20px;
+}
+.h-50{
+	height: 50px;
+}
+.w100{
+	width: 100%;
+}
+.w50{
+	width: 50%;
+}
+.bg{
+	background-image:url(<?= base_url(); ?>assets/images/BG.png);
+    background-size:cover;
+}
+.fl{
+	float: left;
+	list-style-type: none;
+}
+
+.plr12{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.doctor-list-info li {
+  border-bottom: 1px solid #dedede;
+  float: left;
+  margin: 15px 0 0;
+  padding: 0 0 15px;
+  width: 100%;
+}
+.doctor-list-info li span.title {
+  color: #353535;
+  float: left;
+  font-weight: 600;
+  width: 22%;
+}
+.doctor-list-info li span {
+  float: right;
+  font-size: 14px;
+  width: 78%;
+}
+.doctor-list-info li span ul li {
+	border-bottom: none;
+	margin: 0;
+}
+
+.modal-body .form-horizontal .col-sm-2,
+.modal-body .form-horizontal .col-sm-10 {
+    width: 100%
+}
+
+.modal-body .form-horizontal .control-label {
+    text-align: left;
+}
+.modal-body .form-horizontal .col-sm-offset-2 {
+    margin-left: 15px;
+}
+#loginform {
+    clear: left;
+    margin: auto;
+    padding: 15px 0;
+    text-align: left;
+    width: 380px;
+}

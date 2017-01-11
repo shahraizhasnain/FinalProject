@@ -1,0 +1,41 @@
+[07-Apr-2016 10:51:18 Asia/Karachi] PHP Fatal error:  Call to undefined function dataValue() in /home1/lifelip9/public_html/demo/api/application/controllers/Upload_Files.php on line 33
+[07-Apr-2016 10:51:23 Asia/Karachi] PHP Fatal error:  Call to undefined function dataValue() in /home1/lifelip9/public_html/demo/api/application/controllers/Upload_Files.php on line 33
+[11-Apr-2016 16:24:32 Asia/Karachi] PHP Fatal error:  Call to undefined method MY_Model::selectWithLimit() in /home1/lifelip9/public_html/demo/api/application/helpers/custom_helper.php on line 149
+[11-Apr-2016 16:26:40 Asia/Karachi] PHP Fatal error:  Call to undefined function uploadImg() in /home1/lifelip9/public_html/demo/api/application/controllers/Upload_Files.php on line 44
+[11-Apr-2016 16:28:45 Asia/Karachi] PHP Fatal error:  Call to undefined function uploadImg() in /home1/lifelip9/public_html/demo/api/application/controllers/Upload_Files.php on line 44
+[11-Apr-2016 16:31:05 Asia/Karachi] PHP Fatal error:  Call to undefined function uploadImg() in /home1/lifelip9/public_html/demo/api/application/controllers/Upload_Files.php on line 44
+[11-Apr-2016 16:32:50 Asia/Karachi] PHP Fatal error:  Class 'M_Upload' not found in /home1/lifelip9/public_html/demo/api/application/controllers/Upload_Files.php on line 46
+[31-Oct-2016 04:08:20 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[31-Oct-2016 04:23:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ftsadmin/public_html/ideas2016/api1/application/controllers/Session.php on line 47
+[31-Oct-2016 04:27:14 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[31-Oct-2016 04:36:13 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[31-Oct-2016 05:14:02 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ftsadmin/public_html/ideas2016/api1/application/controllers/Session.php on line 87
+[31-Oct-2016 05:18:37 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ftsadmin/public_html/ideas2016/api1/application/controllers/Session.php on line 87
+[31-Oct-2016 15:21:48 Asia/Karachi] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 197
+[31-Oct-2016 05:46:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'credentials' (T_STRING), expecting ')' in /home/ftsadmin/public_html/ideas2016/api1/application/helpers/config_helper.php on line 42
+[31-Oct-2016 06:02:48 America/Chicago] PHP Parse error:  syntax error, unexpected 'credentials' (T_STRING), expecting ')' in /home/ftsadmin/public_html/ideas2016/api1/application/helpers/config_helper.php on line 42
+[31-Oct-2016 06:28:22 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/ftsadmin/public_html/ideas2016/api1/application/core/MY_Controller.php on line 60
+[31-Oct-2016 16:31:21 Asia/Karachi] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 47
+[31-Oct-2016 16:37:13 Asia/Karachi] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 47
+[31-Oct-2016 16:40:02 Asia/Karachi] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 48
+[01-Nov-2016 15:10:11 Asia/Karachi] PHP Fatal error:  Call to undefined method MY_Model::isUserNameExist() in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 67
+[01-Nov-2016 15:16:18 Asia/Karachi] PHP Fatal error:  Call to undefined method MY_Model::isUserNameExist() in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 67
+[01-Nov-2016 15:58:08 Asia/Karachi] PHP Parse error:  syntax error, unexpected '"users.cell_number"' (T_CONSTANT_ENCAPSED_STRING) in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 79
+[01-Nov-2016 15:59:00 Asia/Karachi] PHP Parse error:  syntax error, unexpected '"cell_number"' (T_CONSTANT_ENCAPSED_STRING) in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 79
+[01-Nov-2016 15:59:52 Asia/Karachi] PHP Parse error:  syntax error, unexpected ',' in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 78
+[01-Nov-2016 16:00:16 Asia/Karachi] PHP Parse error:  syntax error, unexpected ',' in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 78
+[01-Nov-2016 16:00:45 Asia/Karachi] PHP Parse error:  syntax error, unexpected ',' in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 78
+[01-Nov-2016 16:17:01 Asia/Karachi] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 224
+[01-Nov-2016 16:18:03 Asia/Karachi] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 224
+[01-Nov-2016 16:18:17 Asia/Karachi] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 224
+[01-Nov-2016 16:18:30 Asia/Karachi] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 224
+[01-Nov-2016 16:29:39 Asia/Karachi] PHP Parse error:  syntax error, unexpected '"\n"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 87
+[01-Nov-2016 16:35:35 Asia/Karachi] PHP Parse error:  syntax error, unexpected 'var' (T_VAR), expecting ';' in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 84
+[01-Nov-2016 16:36:32 Asia/Karachi] PHP Parse error:  syntax error, unexpected '}' in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 90
+[01-Nov-2016 16:36:58 Asia/Karachi] PHP Parse error:  syntax error, unexpected '}' in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 225
+[01-Nov-2016 16:42:31 Asia/Karachi] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 83
+[01-Nov-2016 16:51:46 Asia/Karachi] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ftsadmin/public_html/ideas2016/api1/application/models/M_session.php on line 81
+[01-Nov-2016 07:10:50 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/ftsadmin/public_html/ideas2016/api1/application/controllers/Session.php on line 53
+[01-Nov-2016 07:11:35 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/ftsadmin/public_html/ideas2016/api1/application/controllers/Session.php on line 53
+[01-Nov-2016 07:11:41 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/ftsadmin/public_html/ideas2016/api1/application/controllers/Session.php on line 53
+[01-Nov-2016 07:13:42 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/ftsadmin/public_html/ideas2016/api1/application/controllers/Session.php on line 53
